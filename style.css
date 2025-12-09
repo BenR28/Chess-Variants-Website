@@ -234,7 +234,7 @@ nav a:hover {
 }
 form {
     text-align: center;
-    color: rgb(254, 242, 200);
+    color: rgb(101, 101, 101) !important;
     font-size: 30px;
 
     background-color: rgb(63, 114, 47);
@@ -252,6 +252,9 @@ input {
     margin-right: 0;
     width: fit-content;
     padding: 0;
+}
+input, textarea {
+    color: rgb(0, 0, 0) !important;
 }
 #vname,
 #fname,
