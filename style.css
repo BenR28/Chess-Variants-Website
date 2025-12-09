@@ -1,0 +1,603 @@
+* {
+    font-family: sans-serif;
+    width: 100%;
+    overflow: visible;
+    color: rgb(254, 242, 200);
+}
+html {
+    width: 100%;
+}
+img {
+    position: absolute;
+}
+#categoryCardSection {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#prechessImage1 {
+    right: 10px;
+    height: 480px;
+    width: 480px;
+}
+.categoryCard {
+    position: relative;
+    flex-direction: column;
+
+    text-align: center;
+
+    margin: 20px 10px;
+    padding: 5px 5px;
+
+    max-width: 350px;
+
+    color: rgb(254, 242, 200);
+}
+.categoryCard h3 {
+    font-size: 80px;
+    background-color: rgb(85, 156, 64);
+    margin: 0;
+}
+.categoryCard a {
+    color: rgb(254, 242, 200);
+}
+.categoryCard p {
+    background-color: rgb(63, 114, 47);
+    max-width: 350px;
+    margin: 0;
+    padding: 0;
+}
+#homeImages {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    flex-wrap: wrap;
+    height: min-content;
+    color: rgb(254, 242, 200);
+}
+.homeImage {
+    position: relative;
+    padding-bottom: 6px;
+}
+.homeFeature {
+    position: relative;
+    flex-direction: column;
+    margin: 0px;
+    margin-bottom: 70px;
+    max-width: 400px;
+    text-align: center;
+}
+#homeImages h3 {
+    color: rgb(254, 242, 200);
+    background-color: rgb(85, 156, 64);
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 50px;
+}
+#homeImages p {
+    font-size: 20px;
+    color: rgb(254, 242, 200);
+    background-color: rgb(63, 114, 47);
+    width: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+body {
+    background-color: rgb(254, 242, 200);
+    margin: 0 0;
+    padding: 0 0;
+    background-image: url(images/background.png);
+    background-repeat: repeat;
+    background-size: 200px 200px;
+}
+main {
+    margin: 0;
+    padding: 0;
+}
+p {
+    background-color: rgb(85, 156, 64);
+
+    color: rgb(254, 242, 200);
+
+    font-size: 25px;
+
+    line-height: 40px;
+    width: 700px;
+
+    padding: 10px;
+}
+div.pLeft {
+    width: 100%;
+    text-align: center;
+    float: none;
+    padding: 0;
+    margin: 0;
+}
+.pLeft p {
+    padding: 10px;
+    margin: 0;
+    width: calc(100% - 20px);
+    background-color: rgb(63, 114, 47);
+}
+#h3Left {
+    font-size: 60px;
+    background-color: rgb(85, 156, 64);
+    text-align: center;
+    color: rgb(254, 242, 200);
+    margin: 0;
+    padding: 0;
+}
+#abouti {
+    text-align: center;
+    position: relative;
+    justify-self: center;
+    padding: 0;
+    padding: 20px;
+    padding-top: 0;
+}
+#aboutimage {
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+    display: flex;
+    justify-self: center;
+}
+#contactvariants {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    font-size: 23px;
+}
+.titlebar {
+    color: white;
+
+    background-color: rgb(85, 156, 64);
+
+    height: 180px;
+}
+.titlebar h1 {
+    font-size: 100px;
+    letter-spacing: 5px;
+
+    padding: 0;
+    margin: 0 10px;
+    width: fit-content;
+}
+.titlebar h2 {
+    padding: 0;
+    margin: 0 10px;
+
+    font-size: 50px;
+    width: fit-content;
+}
+.titlebar img {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    height: 192px;
+    width: 230px;
+}
+.navbar {
+    background-color: rgb(63, 114, 47);
+
+    height: 60px;
+    text-align: center;
+}
+a {
+    color: white;
+}
+#mobileBR {
+    display: none;
+}
+.navbar a {
+    line-height: 60px;
+
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    margin: 0 10px;
+
+    background-color: rgb(254, 242, 200);
+    color: rgb(63, 114, 47);
+}
+nav a:hover {
+    background-color: rgb(63, 114, 47);
+    color: rgb(254, 242, 200);
+}
+#formHeader {
+    background-color: rgb(85, 156, 64);
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 60px;
+    margin: 0;
+    color: rgb(254, 242, 200);
+    align-self: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+#requiredReminder {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+}
+form {
+    text-align: center;
+    color: rgb(254, 242, 200);
+    font-size: 30px;
+
+    background-color: rgb(63, 114, 47);
+}
+#submit {
+    height: 45px;
+    width: 150px;
+    font-size: 30px;
+    color: dimgray;
+}
+label,
+input {
+    margin: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    width: fit-content;
+    padding: 0;
+}
+#vname,
+#fname,
+#lname {
+    height: 40px;
+    font-size: 30px;
+}
+textarea {
+    font-size: 20px;
+    width: 75%;
+    padding: 0;
+} 
+select {
+    font-size: 30px;
+    height: 40px;
+    width: 200px;
+    color: dimgray;
+}
+#selectOne {
+    color: grey;
+}
+.vOverview {
+    margin-top: 100px;
+    color: rgb(254, 242, 200);
+    height: auto;
+    padding: 10px;
+    width: fit-content;
+    background-color: rgb(63, 114, 47);
+}
+.vInfoL {
+    margin: 0;
+    width: 35%;
+    background-color: rgb(85, 156, 64);
+    height: auto;
+    justify-self: left;
+    font-size: 30px;
+    padding: 5px;
+    text-align: center;
+    float: left;
+    height: 210px;
+}
+.darkgreenbg {
+    background-color: rgb(63, 114, 47);
+    width: 100%;
+    display: block;
+    font-size: 50px;
+    padding: 20px;
+    right: 20px;
+    position: relative;
+}
+table {
+    width: 55%;
+    justify-self: right;
+    margin-right: 0px;
+    background-color: rgb(85, 156, 64);
+    height: 220px;
+    font-size: 20px;
+}
+th,
+td {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+
+    margin: 5px;
+    border: 5px solid rgb(254, 242, 200);
+
+    width: max-content;
+}
+.variant {
+    position: relative;
+    height: auto;
+    display: block;
+    overflow: auto;
+}
+.variant h1 {
+    background-color: rgb(63, 114, 47);
+    color: rgb(254, 242, 200);
+    font-size: 100px;
+    text-align: center;
+    height: min-content;
+    padding: 0;
+    margin: 0;
+    margin-top: 100px;
+    width: 100%;
+}
+.variant h4 {
+    background-color: rgb(63, 114, 47);
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: rgb(254, 242, 200);
+}
+.variant p {
+    padding: 0;
+    margin: 0;
+    color: rgb(254, 242, 200);
+    background-color: rgb(85, 156, 64);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.vright {
+    text-align: right;
+    float: right;
+}
+.noImage {
+    text-align: center;
+    justify-self: center;   
+    width: 80% !important; 
+}
+#chess960image {
+    position: relative;
+    width: 360px;
+    height: 360px;
+    margin: 0;
+    float: right;
+    display: inline;
+}
+#miniChessImage1 {
+    position: relative;
+    display: inline;
+    float: right;
+    height: 320px;
+    width: 320px;
+    margin: 0;
+}
+#miniChessImage2 {
+    position: relative;
+    display: inline;
+    float: left;
+    width: 520px;
+    height: 520px;
+    margin: 0;
+}
+#prechessImage1 {
+    position: relative;
+    display: inline;
+    float: right;
+    width: 520px;
+    height: 520px;
+    margin: 0;
+    margin-left: 10px;
+}
+#prechessImage2 {
+    position: relative;
+    display: inline;
+    float: right;
+    width: 130px;
+    height: 520px;
+    margin: 0px;
+    margin-right: 10px;
+}
+#prechessImage3 {
+    position: relative;
+    display: inline;
+    float: right;
+    width: 480px;
+    height: 480px;
+    margin: 0;
+}
+#giveawayImage {
+    position: relative;
+    display: inline;
+    float: right;
+    width: 360px;
+    height: 360px;
+    margin: 0;
+}
+#threeCheckImage {
+    position: relative;
+    display: inline;
+    float: left;
+    width: 560px;
+    height: 560px;
+    margin: 0;
+}
+#kothImage {
+    position: relative;
+    display: inline;
+    float: left;
+    width: 680px;
+    height: 680px;
+}
+#duckImage {
+    position: relative;
+    display: inline;
+    float: left;
+    width: 400px;
+    height: 400px;
+}
+#seirawanImage1 {
+    position: relative;
+    display: inline;
+    float: right;
+    width: 360px;
+    height: 360px;
+}
+#seirawanImage2 {
+    position: relative;
+    display: inline;
+    float: left;
+    width: 640px;
+    height: 640px;
+}
+#chaturajiImage1 {
+    position: relative;
+    display: inline;
+    float: right;
+    width: 360px;
+    height: 360px;
+}
+#chaturajiImage2 {
+    position: relative;
+    display: inline;
+    float: right;
+    width: 360px;
+    height: 360px;
+}
+.detailImage1 {
+    max-width: 250px;
+    max-height: 250px;
+    position: absolute;
+    top: 20%;
+    right: 10px;
+}
+details {
+    color: rgb(254, 242, 200);
+    background-color: rgb(85, 156, 64);
+    font-size: 30px;
+    padding: 10px;
+    border: 5px solid rgb(254, 242, 200);
+    max-width: calc(100% - 30px);
+    position: relative;
+    height: auto;
+}
+details summary {
+    height: min-content;
+}
+.variant details p {
+    background-color: rgb(63, 114, 47);
+    width: calc(60% - 20px);
+}
+@media screen and (max-width: 1350px) {
+    .variant .noImage p {
+        text-align: center;
+        justify-self: center;   
+        width: 80% !important;
+    }
+    .vInfoL {
+        justify-self: center;
+        height: min-content;
+        width: calc(100% - 10px);
+        margin-bottom: 10px;
+    }
+    .vInfoL p {
+        width: 100%;
+    }
+    table {
+        justify-self: center;
+        width: 100%;
+    }
+    .variant p, .vright {
+        font-size: 20px;
+        line-height: 30px;
+        width: 400px;
+    }
+}
+@media screen and (max-width: 1010px) {
+    .titlebar {
+        width: 100%;
+        height: 50%;
+    }
+    .titlebar img {
+        height: 120px;
+        width: 150px;
+    }
+    .titlebar h1 {
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 833px) {
+    .navbar {
+        height: 120px;
+    }
+    #mobileBR {
+        display: initial;
+    }
+    .navbar a {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #abouti {
+        font-size: 15px;
+        line-height: 20px;
+        width: 400px;
+    }
+    .variant p {
+        font-size: 20px;
+    }
+    .variant p, .vright {
+        width: 300px;
+    }
+    #prechessImage1, #prechessImage2 {
+        display: none;
+    }
+}
+@media screen and (max-width: 600px) {
+    .titlebar h1 {
+        font-size: 50px;
+    }
+    .titlebar img {
+        width: 0;
+        height: 0;
+    }
+    table {
+        font-size: 15px;
+    }
+    #chess960image,
+    #miniChessImage1,
+    #miniChessImage2,
+    #prechessImage1,
+    #prechessImage2,
+    #prechessImage3,
+    #giveawayImage,
+    #threeCheckImage,
+    #kothImage,
+    #duckImage,
+    #seirawanImage1,
+    #seirawanImage2,
+    #chaturajiImage1,
+    #chaturajiImage2 {
+        float: none;
+        display: flex;
+        justify-self: center;
+        height: auto;
+        width:100%;
+    }
+    .variant p, .vright, .variant details p {
+        justify-self: center;
+        text-align: center;
+        float: none;
+        width: calc(100% - 20px) !important;
+    }
+    #prechessImage1, #prechessImage2 {
+        display: none;
+    }
+}

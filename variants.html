@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" type="image/x-icon" href="images/dragon-bishop.png" />
+        <title>Chess Variants: Variants</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div class="titlebar">
+            <h1>Chess Variants</h1>
+            <img src="images/dragon-bishop.png" alt="Dragon Bishop Logo" />
+            <h2>Variants</h2>
+        </div>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="variants.html">Variants</a>
+            <a href="board.html">Board</a>
+            <a href="goal.html">Goal</a>
+            <br id="mobileBR" />
+            <a href="pieces.html">Pieces</a>
+            <a href="players.html">Players</a>
+            <a href="about.html">About</a>
+        </nav>
+        <main>
+            <div id="categoryCardSection">
+                <div class="categoryCard">
+                    <a href="board.html"><h3>Board</h3></a>
+                    <p>The board category features variants that only change the size of the board or the setup of the pieces. Everything else stays the same.</p>
+                </div>
+                <div class="categoryCard">
+                    <a href="goal.html"><h3>Goal</h3></a>
+                    <p>The goal category features variants that change the way to win. Instead of checkmating the opponent, you need to accomplish a different goal.</p>
+                </div>
+                <div class="categoryCard">
+                    <a href="pieces.html"><h3>Pieces</h3></a>
+                    <p>
+                        The pieces category features variants that add new pieces to the game, either from the setup, or added later on in the game.
+                    </p>
+                </div>
+                <div class="categoryCard">
+                    <a href="players.html"><h3>Players</h3></a>
+                    <p>
+                        The players category features variants that let you play with more players. This variants in the category can also change the board, pieces, and goal.
+                    </p>
+                </div>
+            </div>
+            <h1 id="formHeader">Request Variant</h1>
+            <p id="requiredReminder">Any question marked with an asteric (*) is required.</p>
+            <form>
+                <label for="vname">*Variant Name:</label>
+                <input id="vname" name="vname" placeholder="Ex. Atomic Chess" required size="30">
+                <br>
+                <label for="vrules">*Variant Rules (please explain in detail):</label>
+                <br>
+                <textarea id="vrules" name="vrules" placeholder="Ex. Pieces explode when taken..." required rows="3" cols="100"></textarea>
+                <br>
+                <label for="vtype">Variant Category:</label>
+                <select id="vtype" size="1">
+                    <option>Select One</option>
+                    <option>Board</option>
+                    <option>Goal</option>
+                    <option>Pieces</option>
+                    <option>People</option>
+                    <option>Other</option>
+                </select>
+                <br>
+                <label for="fname">*First Name:</label>
+                <input id="fname" name="fname" placeholder="Ex. Benjamin" required size="30">
+                <br>
+                <label for="lname">Last Name:</label>
+                <input id="lname" name="lname" placeholder="Ex. Raska" size="30">
+                <br>
+                <input type="submit" id="submit">
+            </form>
+            <p id="contactvariants">If you have any questions, please contact me at <a
+                    href="mailto:benjamin.raska@stu.fortthomas.kyschools.us"
+                    >benjamin.raska@stu.fortthomas.kyschools.us</a
+                ></p>
+        </main>
+    </body>
+</html>
